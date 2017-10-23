@@ -1,0 +1,25 @@
+{
+  "name": "unet/magento2-knockout-example",
+  "description": "Magento 2 Knockout component example",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Duc Dao",
+      "email": "huuduc.uneti@gmail.com"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+    "php": "~7.0.0",
+    "magento/framework": "~100.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Unet\\Knockout\\": ""
+    }
+  }
+}
